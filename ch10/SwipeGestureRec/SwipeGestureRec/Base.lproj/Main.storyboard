@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SwipeGestureRec" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小章魚1.png" id="Xgr-c2-Pgo">
+                                <rect key="frame" x="144" y="104" width="87" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="UHt-wE-Cwg" appends="YES" id="c9M-Pd-9hb"/>
+                            <outletCollection property="gestureRecognizers" destination="RYk-2E-BlY" appends="YES" id="7QD-Tz-Zfc"/>
+                            <outletCollection property="gestureRecognizers" destination="aZ0-Wf-gkg" appends="YES" id="xuE-oY-DQL"/>
+                            <outletCollection property="gestureRecognizers" destination="HMz-y3-EtT" appends="YES" id="XNJ-gB-cfG"/>
+                        </connections>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="img" destination="Xgr-c2-Pgo" id="YWQ-Ca-qSq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="up" id="UHt-wE-Cwg">
+                    <connections>
+                        <action selector="up:" destination="BYZ-38-t0r" id="diO-Bq-2PH"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="down" id="RYk-2E-BlY">
+                    <connections>
+                        <action selector="down:" destination="BYZ-38-t0r" id="nKu-un-MVF"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="aZ0-Wf-gkg">
+                    <connections>
+                        <action selector="left:" destination="BYZ-38-t0r" id="5Gv-wd-j2k"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="right" id="HMz-y3-EtT">
+                    <connections>
+                        <action selector="right:" destination="BYZ-38-t0r" id="591-Yj-9Uh"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="98.5" y="239.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="小章魚1.png" width="100" height="100"/>
+    </resources>
+</document>

@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDF3BF841C8828AE00B53B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3BF831C8828AE00B53B9D /* AppDelegate.swift */; };
+		DDF3BF861C8828AE00B53B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3BF851C8828AE00B53B9D /* ViewController.swift */; };
+		DDF3BF891C8828AE00B53B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF3BF871C8828AE00B53B9D /* Main.storyboard */; };
+		DDF3BF8B1C8828AE00B53B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF3BF8A1C8828AE00B53B9D /* Assets.xcassets */; };
+		DDF3BF8E1C8828AE00B53B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDF3BF8C1C8828AE00B53B9D /* LaunchScreen.storyboard */; };
+		DDF3BF991C8828AE00B53B9D /* PanGestureRecTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3BF981C8828AE00B53B9D /* PanGestureRecTests.swift */; };
+		DDF3BFA41C8828AE00B53B9D /* PanGestureRecUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF3BFA31C8828AE00B53B9D /* PanGestureRecUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDF3BF951C8828AE00B53B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF3BF781C8828AE00B53B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF3BF7F1C8828AE00B53B9D;
+			remoteInfo = PanGestureRec;
+		};
+		DDF3BFA01C8828AE00B53B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDF3BF781C8828AE00B53B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDF3BF7F1C8828AE00B53B9D;
+			remoteInfo = PanGestureRec;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDF3BF801C8828AE00B53B9D /* PanGestureRec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanGestureRec.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3BF831C8828AE00B53B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF3BF851C8828AE00B53B9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDF3BF881C8828AE00B53B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF3BF8A1C8828AE00B53B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF3BF8D1C8828AE00B53B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF3BF8F1C8828AE00B53B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF3BF941C8828AE00B53B9D /* PanGestureRecTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3BF981C8828AE00B53B9D /* PanGestureRecTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureRecTests.swift; sourceTree = "<group>"; };
+		DDF3BF9A1C8828AE00B53B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF3BF9F1C8828AE00B53B9D /* PanGestureRecUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanGestureRecUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF3BFA31C8828AE00B53B9D /* PanGestureRecUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureRecUITests.swift; sourceTree = "<group>"; };
+		DDF3BFA51C8828AE00B53B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF3BF7D1C8828AE00B53B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF911C8828AE00B53B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF9C1C8828AE00B53B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDF3BF771C8828AE00B53B9D = {
+			isa = PBXGroup;
+			children = (
+				DDF3BF821C8828AE00B53B9D /* PanGestureRec */,
+				DDF3BF971C8828AE00B53B9D /* PanGestureRecTests */,
+				DDF3BFA21C8828AE00B53B9D /* PanGestureRecUITests */,
+				DDF3BF811C8828AE00B53B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF3BF811C8828AE00B53B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3BF801C8828AE00B53B9D /* PanGestureRec.app */,
+				DDF3BF941C8828AE00B53B9D /* PanGestureRecTests.xctest */,
+				DDF3BF9F1C8828AE00B53B9D /* PanGestureRecUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF3BF821C8828AE00B53B9D /* PanGestureRec */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3BF831C8828AE00B53B9D /* AppDelegate.swift */,
+				DDF3BF851C8828AE00B53B9D /* ViewController.swift */,
+				DDF3BF871C8828AE00B53B9D /* Main.storyboard */,
+				DDF3BF8A1C8828AE00B53B9D /* Assets.xcassets */,
+				DDF3BF8C1C8828AE00B53B9D /* LaunchScreen.storyboard */,
+				DDF3BF8F1C8828AE00B53B9D /* Info.plist */,
+			);
+			path = PanGestureRec;
+			sourceTree = "<group>";
+		};
+		DDF3BF971C8828AE00B53B9D /* PanGestureRecTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3BF981C8828AE00B53B9D /* PanGestureRecTests.swift */,
+				DDF3BF9A1C8828AE00B53B9D /* Info.plist */,
+			);
+			path = PanGestureRecTests;
+			sourceTree = "<group>";
+		};
+		DDF3BFA21C8828AE00B53B9D /* PanGestureRecUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDF3BFA31C8828AE00B53B9D /* PanGestureRecUITests.swift */,
+				DDF3BFA51C8828AE00B53B9D /* Info.plist */,
+			);
+			path = PanGestureRecUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF3BF7F1C8828AE00B53B9D /* PanGestureRec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3BFA81C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRec" */;
+			buildPhases = (
+				DDF3BF7C1C8828AE00B53B9D /* Sources */,
+				DDF3BF7D1C8828AE00B53B9D /* Frameworks */,
+				DDF3BF7E1C8828AE00B53B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanGestureRec;
+			productName = PanGestureRec;
+			productReference = DDF3BF801C8828AE00B53B9D /* PanGestureRec.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDF3BF931C8828AE00B53B9D /* PanGestureRecTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3BFAB1C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRecTests" */;
+			buildPhases = (
+				DDF3BF901C8828AE00B53B9D /* Sources */,
+				DDF3BF911C8828AE00B53B9D /* Frameworks */,
+				DDF3BF921C8828AE00B53B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF3BF961C8828AE00B53B9D /* PBXTargetDependency */,
+			);
+			name = PanGestureRecTests;
+			productName = PanGestureRecTests;
+			productReference = DDF3BF941C8828AE00B53B9D /* PanGestureRecTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDF3BF9E1C8828AE00B53B9D /* PanGestureRecUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF3BFAE1C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRecUITests" */;
+			buildPhases = (
+				DDF3BF9B1C8828AE00B53B9D /* Sources */,
+				DDF3BF9C1C8828AE00B53B9D /* Frameworks */,
+				DDF3BF9D1C8828AE00B53B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDF3BFA11C8828AE00B53B9D /* PBXTargetDependency */,
+			);
+			name = PanGestureRecUITests;
+			productName = PanGestureRecUITests;
+			productReference = DDF3BF9F1C8828AE00B53B9D /* PanGestureRecUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF3BF781C8828AE00B53B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = eHappy;
+				TargetAttributes = {
+					DDF3BF7F1C8828AE00B53B9D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					DDF3BF931C8828AE00B53B9D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DDF3BF7F1C8828AE00B53B9D;
+					};
+					DDF3BF9E1C8828AE00B53B9D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = DDF3BF7F1C8828AE00B53B9D;
+					};
+				};
+			};
+			buildConfigurationList = DDF3BF7B1C8828AE00B53B9D /* Build configuration list for PBXProject "PanGestureRec" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF3BF771C8828AE00B53B9D;
+			productRefGroup = DDF3BF811C8828AE00B53B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF3BF7F1C8828AE00B53B9D /* PanGestureRec */,
+				DDF3BF931C8828AE00B53B9D /* PanGestureRecTests */,
+				DDF3BF9E1C8828AE00B53B9D /* PanGestureRecUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF3BF7E1C8828AE00B53B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3BF8E1C8828AE00B53B9D /* LaunchScreen.storyboard in Resources */,
+				DDF3BF8B1C8828AE00B53B9D /* Assets.xcassets in Resources */,
+				DDF3BF891C8828AE00B53B9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF921C8828AE00B53B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF9D1C8828AE00B53B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF3BF7C1C8828AE00B53B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3BF861C8828AE00B53B9D /* ViewController.swift in Sources */,
+				DDF3BF841C8828AE00B53B9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF901C8828AE00B53B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3BF991C8828AE00B53B9D /* PanGestureRecTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDF3BF9B1C8828AE00B53B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF3BFA41C8828AE00B53B9D /* PanGestureRecUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDF3BF961C8828AE00B53B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF3BF7F1C8828AE00B53B9D /* PanGestureRec */;
+			targetProxy = DDF3BF951C8828AE00B53B9D /* PBXContainerItemProxy */;
+		};
+		DDF3BFA11C8828AE00B53B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDF3BF7F1C8828AE00B53B9D /* PanGestureRec */;
+			targetProxy = DDF3BFA01C8828AE00B53B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDF3BF871C8828AE00B53B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF3BF881C8828AE00B53B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF3BF8C1C8828AE00B53B9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF3BF8D1C8828AE00B53B9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF3BFA61C8828AE00B53B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF3BFA71C8828AE00B53B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF3BFA91C8828AE00B53B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDF3BFAA1C8828AE00B53B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PanGestureRec/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRec;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DDF3BFAC1C8828AE00B53B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureRecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRec.app/PanGestureRec";
+			};
+			name = Debug;
+		};
+		DDF3BFAD1C8828AE00B53B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PanGestureRecTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRecTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PanGestureRec.app/PanGestureRec";
+			};
+			name = Release;
+		};
+		DDF3BFAF1C8828AE00B53B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureRecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureRec;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DDF3BFB01C8828AE00B53B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PanGestureRecUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ehappy.app.PanGestureRecUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanGestureRec;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF3BF7B1C8828AE00B53B9D /* Build configuration list for PBXProject "PanGestureRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3BFA61C8828AE00B53B9D /* Debug */,
+				DDF3BFA71C8828AE00B53B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF3BFA81C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3BFA91C8828AE00B53B9D /* Debug */,
+				DDF3BFAA1C8828AE00B53B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF3BFAB1C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRecTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3BFAC1C8828AE00B53B9D /* Debug */,
+				DDF3BFAD1C8828AE00B53B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDF3BFAE1C8828AE00B53B9D /* Build configuration list for PBXNativeTarget "PanGestureRecUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF3BFAF1C8828AE00B53B9D /* Debug */,
+				DDF3BFB01C8828AE00B53B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF3BF781C8828AE00B53B9D /* Project object */;
+}
